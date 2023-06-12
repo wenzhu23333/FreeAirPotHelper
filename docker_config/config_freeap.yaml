@@ -1,10 +1,10 @@
-port: 16431
+port: 8080
 subconverterPrefix: "http://127.0.0.1:25500/sub?target=clash&url="
 videoID: "qmRkvKo-KbQ"
 queueCapacity: 2
-nodeNum: 20
+nodeNum: 20 # The number of the airpot
 token: "xx"
-videoQuality: "480p"
-subscribeURL: "/sub"
-nodeUpdateInterval: 5
-subUpdateInterval: 600
+videoQuality: "480p" # The quality of live stream
+subscribeURL: "/sub" # The url for access
+nodeUpdateInterval: 60 # The update interval of node
+subUpdateInterval: 600 # The update interval of subscribe

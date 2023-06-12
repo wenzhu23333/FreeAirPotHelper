@@ -22,5 +22,15 @@ Define the config_freeap.yaml you want.
 
 ### Deployment
 ```shell
-docker run -d -p 80:16431 -v ./docker_config:/tmp/workdir/configs --name freeap freeap
+docker run -d -p 80:8080 -v ./docker_config:/tmp/workdir/configs --name freeap freeap
+```
+
+### Access
+
+Subscribe URL: http://127.0.0.1/sub?token=xx
+
+Get Yaml for clash: 
+
+```shell
+curl -O http://127.0.0.1/sub?token=xx -o xxx.yml
 ```
