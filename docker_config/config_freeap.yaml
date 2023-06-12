@@ -1,0 +1,10 @@
+port: 16431
+subconverterPrefix: "http://127.0.0.1:25500/sub?target=clash&url="
+videoID: "qmRkvKo-KbQ"
+queueCapacity: 2
+nodeNum: 20
+token: "xx"
+videoQuality: "480p"
+subscribeURL: "/sub"
+nodeUpdateInterval: 5
+subUpdateInterval: 600
