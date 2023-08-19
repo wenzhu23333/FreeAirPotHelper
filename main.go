@@ -100,7 +100,7 @@ func subscribeHandler(token string) http.HandlerFunc {
 			if err != nil {
 				fmt.Println(err)
 			}
-			w.Header().Set("Profile-Update-Interval", "24")
+			w.Header().Set("Profile-Update-Interval", "720")
 			subscribeYaml := string(body)
 			//w.Header().Set("Content-Length", fmt.Sprint(len(subscribeYaml)))
 			w.Header().Set("Access-Control-Allow-Origin", "*")
